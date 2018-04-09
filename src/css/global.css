@@ -1,0 +1,13 @@
+/* Global file connecting all css/scss together */
+
+
+/* 
+	./main.css 		- Main styles which will be used across the website.
+	./override.css 	- Styles which will override Bootstrap styles.
+*/
+
+@import url('./main.css');
+@import url('./override.css');
+
+/* Uncomment that line to spare Bootstrap link from index file (line: 17)
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'); */
